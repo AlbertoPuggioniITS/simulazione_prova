@@ -8,9 +8,9 @@ app = FastAPI(
     description="Questa API fornisce dati sulla produttività, l'occupazione e l'importanza economica del settore della pesca nelle varie regioni e aree geografiche italiane.",
     version="1.0.0",
     contact={
-        "name": "Il tuo nome",
-        "url": "https://tuo_sito_web.com",
-        "email": "tuo_email@example.com",
+        "name": "Alberto Puggioni",
+        "url": "https://github.com/AlbertoPuggioniITS/simulazione_prova",
+        "email": "alberto.puggioni@edu.itspiemonte.it",
     },
     license_info={
         "name": "MIT License",
