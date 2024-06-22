@@ -9,7 +9,12 @@ app = FastAPI(
     version="1.0.0",
     contact={
         "name": "Alberto Puggioni",
+        "url": "https://github.com/AlbertoPuggioniITS/simulazione_prova",
         "email": "alberto.puggioni@edu.itspiemonte.it",
+    },
+    license_info={
+        "name": "MIT License",
+        "url": "https://opensource.org/licenses/MIT",
     },
 )
 
