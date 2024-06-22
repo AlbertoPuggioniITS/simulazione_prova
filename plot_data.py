@@ -14,6 +14,10 @@ def plot_produttivita_totale_nazionale():
     plt.xlabel('Anno')
     plt.ylabel('Produttività (migliaia di euro)')
     plt.grid(True)
+
+    # Aggiungi tutti gli anni all'asse delle x
+    plt.xticks(df['anno'])
+
     plt.savefig('produttivita_totale_nazionale.png')
 
 plot_produttivita_totale_nazionale()
