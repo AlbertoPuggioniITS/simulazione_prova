@@ -9,7 +9,7 @@ def plot_produttivita_totale_nazionale():
     conn.close()
 
     plt.figure(figsize=(10, 6))
-    plt.plot(df['anno'], df['produttivita_totale'], marker='o')
+    plt.plot(df['anno'], df['produttivita'], marker='o')
     plt.title('Produttività Totale Nazionale')
     plt.xlabel('Anno')
     plt.ylabel('Produttività (migliaia di euro)')
